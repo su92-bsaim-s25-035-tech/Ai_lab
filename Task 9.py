@@ -1,5 +1,5 @@
 import pandas as pd 
-data = pd.read_csv('task 9/amazon.csv')
+data = pd.read_csv('amazon.csv')
 
 print("="*50)
 print(" Data Eploration Summary")
