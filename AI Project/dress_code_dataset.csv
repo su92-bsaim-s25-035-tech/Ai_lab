@@ -1,0 +1,101 @@
+employee_id,name,department,gender,shirt_color,shirt_type,pants_type,shoe_type,has_id_card,has_safety_gear,is_compliant
+1,Amna,HR,Female,Pink,T-Shirt,Jeans,Sneakers,No,No,0
+2,Nimra,Factory,Female,Orange,Safety Vest,Cargo Pants,Safety Boots,Yes,Yes,1
+3,Kiran,HR,Female,Green,Kurta,Jeans,Sandals,Yes,No,0
+4,Hina,Marketing,Female,Black,Formal Shirt,Chinos,Loafers,Yes,No,1
+5,Iqra,Finance,Female,Pink,Hoodie,Shorts,Sandals,No,No,0
+6,Ali,Finance,Male,White,Formal Shirt,Dress Pants,Loafers,Yes,No,1
+7,Kiran,Marketing,Female,Pink,T-Shirt,Shalwar,Sneakers,Yes,No,0
+8,Hina,Management,Female,Red,T-Shirt,Shorts,Sandals,No,No,0
+9,Waqar,IT,Male,Pink,Kurta,Shalwar,Sneakers,,No,0
+10,Ali,Finance,Male,White,Formal Shirt,Dress Pants,Loafers,Yes,No,1
+11,Rehan,Marketing,Male,Yellow,Hoodie,Shorts,Sneakers,Yes,No,0
+12,Faisal,Finance,Male,Blue,Formal Shirt,Dress Pants,Loafers,Yes,No,1
+13,Zain,Management,Male,White,Formal Shirt,Dress Pants,Formal Shoes,Yes,No,1
+14,Ali,Factory,Male,Red,Hoodie,Shorts,Sneakers,No,No,0
+15,Amna,Management,Female,Black,Formal Shirt,Dress Pants,Formal Shoes,Yes,No,1
+16,Nadia,Finance,Female,Black,Formal Shirt,Dress Pants,Loafers,Yes,No,1
+17,Ahmed,IT,Male,Grey,Formal Shirt,Dress Pants,Formal Shoes,Yes,No,1
+18,Amna,Marketing,Female,Pink,T-Shirt,Shorts,Sandals,No,No,0
+19,Ahmed,Finance,Male,White,Formal Shirt,Dress Pants,Formal Shoes,Yes,No,1
+20,Amna,Factory,Female,Green,Hoodie,Shalwar,Sneakers,Yes,No,0
+21,Usman,Finance,Male,Green,Hoodie,Shorts,Sneakers,Yes,No,0
+22,Maryam,Marketing,Female,Pink,T-Shirt,Jeans,Sandals,No,No,0
+23,Kamran,HR,Male,Black,Formal Shirt,Dress Pants,Formal Shoes,Yes,No,1
+24,Omar,Management,Male,Black,Formal Shirt,Dress Pants,Formal Shoes,Yes,No,1
+25,Bushra,IT,Female,Green,Kurta,Shalwar,Sandals,No,No,0
+26,Ayesha,Marketing,Female,Green,T-Shirt,Shalwar,Sandals,Yes,No,0
+27,Sara,Factory,Female,Orange,Safety Vest,Dress Pants,Safety Boots,Yes,Yes,1
+28,Nadia,Factory,Female,Yellow,Kurta,Shorts,Sneakers,No,No,0
+29,Tariq,Finance,Male,Red,Kurta,Shorts,Sandals,No,No,0
+30,Kiran,Factory,Female,Orange,Safety Vest,Dress Pants,Safety Boots,Yes,Yes,1
+31,Usman,HR,Male,Black,Formal Shirt,Dress Pants,Formal Shoes,Yes,No,1
+32,Rabia,IT,Female,Black,Casual Shirt,Dress Pants,Formal Shoes,Yes,No,1
+33,Bilal,Factory,Male,Red,T-Shirt,Shalwar,Sneakers,No,No,0
+34,Ayesha,IT,Female,Black,Formal Shirt,Jeans,Sneakers,No,No,1
+35,Nadia,Finance,Female,Red,Kurta,Jeans,Sneakers,No,No,0
+36,Fatima,IT,Female,Green,Hoodie,Jeans,Sandals,No,No,0
+37,Kamran,Finance,Male,Grey,Formal Shirt,Dress Pants,Loafers,Yes,No,1
+38,Imran,IT,Male,Green,T-Shirt,Jeans,Sneakers,No,No,0
+39,Rehan,IT,Male,Yellow,Kurta,Shalwar,Sneakers,Yes,No,0
+40,Mehak,Management,Female,White,Formal Shirt,Dress Pants,Formal Shoes,Yes,No,1
+41,Faisal,IT,Male,Blue,Casual Shirt,Dress Pants,Loafers,No,No,1
+42,Sana,Management,Female,Blue,Formal Shirt,Dress Pants,Formal Shoes,Yes,No,1
+43,Zara,IT,Female,Black,Formal Shirt,Jeans,Formal Shoes,Yes,No,1
+44,Kiran,Factory,Female,Yellow,Safety Vest,Cargo Pants,Safety Boots,Yes,Yes,1
+45,Bushra,IT,Female,,Kurta,Jeans,Sandals,No,No,0
+46,Amna,HR,Female,Blue,Formal Shirt,Dress Pants,Formal Shoes,Yes,No,1
+47,Zara,Factory,Female,Yellow,T-Shirt,Jeans,Sneakers,Yes,No,0
+48,Ayesha,Management,Female,White,Formal Shirt,Dress Pants,Formal Shoes,,No,1
+49,Nadia,Finance,Female,Pink,Kurta,Shalwar,Sneakers,No,No,0
+50,Saad,IT,Male,White,Formal Shirt,Dress Pants,Formal Shoes,Yes,No,1
+51,Ali,HR,Male,Pink,Kurta,Jeans,Sandals,No,No,0
+52,Ayesha,IT,Female,Grey,Polo,Chinos,Sneakers,Yes,No,1
+53,Amna,Factory,Female,Yellow,T-Shirt,Shorts,Sneakers,No,No,0
+54,Tariq,HR,Male,Pink,T-Shirt,Shalwar,Sneakers,No,No,0
+55,Imran,Management,Male,,Kurta,Jeans,Sneakers,Yes,No,0
+56,Tariq,Management,Male,Yellow,T-Shirt,Jeans,Sneakers,Yes,No,0
+57,Imran,Factory,Male,Yellow,Safety Vest,Dress Pants,Safety Boots,Yes,Yes,1
+58,Zain,HR,Male,Black,Formal Shirt,Dress Pants,Formal Shoes,Yes,No,1
+59,Rabia,Marketing,Female,Brown,Formal Shirt,Chinos,Formal Shoes,Yes,No,1
+60,Imran,Factory,Male,Orange,Safety Vest,Cargo Pants,Safety Boots,Yes,Yes,1
+61,Bilal,Management,Male,Blue,Formal Shirt,Dress Pants,Formal Shoes,Yes,No,1
+62,Rabia,HR,Female,White,Formal Shirt,Dress Pants,Formal Shoes,Yes,No,1
+63,Waqar,HR,Male,Red,Hoodie,Jeans,Sandals,No,No,0
+64,Nimra,HR,Female,Pink,Kurta,Shalwar,Sandals,Yes,No,0
+65,Nadia,Finance,Female,Red,Hoodie,Jeans,,No,No,0
+66,Hina,Marketing,Female,White,Casual Shirt,Dress Pants,Loafers,Yes,No,1
+67,Ayesha,Finance,Female,Blue,Formal Shirt,Dress Pants,Formal Shoes,Yes,No,1
+68,Amna,IT,Female,Blue,Polo,Dress Pants,Loafers,No,No,1
+69,Zain,HR,Male,,Formal Shirt,Dress Pants,Formal Shoes,Yes,No,1
+70,Nadia,Management,Female,Black,Formal Shirt,Dress Pants,Formal Shoes,Yes,No,1
+71,Ayesha,HR,Female,White,Formal Shirt,Dress Pants,Formal Shoes,Yes,No,1
+72,Faisal,Marketing,Male,Blue,Casual Shirt,Chinos,Formal Shoes,No,No,1
+73,Faisal,IT,Male,Yellow,Kurta,Shorts,Sandals,Yes,No,0
+74,Usman,Management,Male,Red,Kurta,Shalwar,Sneakers,No,No,0
+75,Zain,Factory,Male,Orange,Safety Vest,Dress Pants,Safety Boots,Yes,Yes,1
+76,Maryam,Factory,Female,Red,Kurta,Jeans,Sneakers,Yes,No,0
+77,Ali,Marketing,Male,Brown,Formal Shirt,Dress Pants,Loafers,Yes,No,1
+78,Kiran,Management,Female,Black,Formal Shirt,Dress Pants,Formal Shoes,Yes,No,1
+79,Bushra,Management,Female,Yellow,T-Shirt,Shalwar,Sneakers,Yes,No,0
+80,Hina,HR,Female,White,Formal Shirt,Dress Pants,Formal Shoes,Yes,No,1
+81,Ali,Marketing,Male,Red,Kurta,Jeans,Sneakers,No,No,0
+82,Nadia,HR,Female,Black,Formal Shirt,Dress Pants,Formal Shoes,Yes,No,1
+83,Saad,Marketing,Male,Brown,Formal Shirt,Dress Pants,,No,No,1
+84,Fatima,Finance,Female,Yellow,Hoodie,Shorts,Sneakers,No,No,0
+85,Usman,HR,Male,Pink,T-Shirt,Jeans,Sandals,,No,0
+86,Tariq,IT,Male,Grey,Formal Shirt,Dress Pants,Loafers,No,No,1
+87,Rabia,Management,Female,Pink,T-Shirt,Jeans,Sneakers,Yes,No,0
+88,Waqar,Marketing,Male,Blue,Polo,Chinos,Formal Shoes,No,No,1
+89,Hamza,Finance,Male,White,Formal Shirt,Dress Pants,Formal Shoes,Yes,No,1
+90,Nadia,Management,Female,Red,T-Shirt,Shorts,Sandals,Yes,No,0
+91,Rabia,Marketing,Female,Pink,Kurta,Shorts,Sneakers,No,No,0
+92,Faisal,HR,Male,Yellow,Kurta,Shorts,Sneakers,No,No,0
+93,Nadia,Factory,Female,Green,T-Shirt,Shalwar,Sneakers,No,No,0
+94,Imran,Factory,Male,Yellow,Safety Vest,Cargo Pants,Safety Boots,Yes,Yes,1
+95,Kamran,Factory,Male,Orange,Safety Vest,Dress Pants,Safety Boots,Yes,Yes,1
+96,Sana,Marketing,Female,Black,Formal Shirt,Dress Pants,Loafers,Yes,No,1
+97,Saad,Marketing,Male,Grey,Casual Shirt,Dress Pants,Formal Shoes,Yes,No,1
+98,Ayesha,Management,Female,Green,Hoodie,Shorts,Sneakers,Yes,No,0
+99,Hina,Finance,Female,Blue,Formal Shirt,Dress Pants,Loafers,Yes,No,1
+100,Usman,Finance,Male,Pink,Hoodie,Jeans,Sneakers,Yes,No,0

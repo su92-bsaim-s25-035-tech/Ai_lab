@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Result - Dress Code</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <h1>AI Dress Code Compliance System</h1>
+
+    <div class="nav">
+        <a href="/">Check Compliance</a>
+        <a href="/rules">Dress Code Rules</a>
+    </div>
+
+    <div class="result-box">
+        {% if result == 1 %}
+        <div class="result-pass">
+            <h2>COMPLIANT</h2>
+            <p>Employee is following the {{ department }} department dress code.</p>
+        </div>
+        {% else %}
+        <div class="result-fail">
+            <h2>NON-COMPLIANT</h2>
+            <p>Employee is NOT following the {{ department }} department dress code.</p>
+        </div>
+        {% endif %}
+
+        <a href="/" class="back-btn">Check Another Employee</a>
+    </div>
+
+    <footer>
+        <p>AI Dress Code Compliance System - Powered by Machine Learning</p>
+    </footer>
+</body>
+</html>

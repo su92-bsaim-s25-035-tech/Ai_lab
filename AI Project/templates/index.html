@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dress Code Compliance System</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <h1>AI Dress Code Compliance System</h1>
+
+    <div class="nav">
+        <a href="/">Check Compliance</a>
+        <a href="/rules">Dress Code Rules</a>
+    </div>
+
+    <div class="form-box">
+        <h2>Enter Employee Details</h2>
+        <form action="/predict" method="POST">
+
+            <label>Department:</label>
+            <select name="department" required>
+                <option value="">Select</option>
+                <option value="IT">IT</option>
+                <option value="HR">HR</option>
+                <option value="Finance">Finance</option>
+                <option value="Marketing">Marketing</option>
+                <option value="Factory">Factory</option>
+                <option value="Management">Management</option>
+            </select>
+
+            <label>Gender:</label>
+            <select name="gender" required>
+                <option value="">Select</option>
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+            </select>
+
+            <label>Shirt Color:</label>
+            <select name="shirt_color" required>
+                <option value="">Select</option>
+                <option value="White">White</option>
+                <option value="Blue">Blue</option>
+                <option value="Black">Black</option>
+                <option value="Grey">Grey</option>
+                <option value="Red">Red</option>
+                <option value="Green">Green</option>
+                <option value="Yellow">Yellow</option>
+                <option value="Orange">Orange</option>
+                <option value="Pink">Pink</option>
+                <option value="Brown">Brown</option>
+            </select>
+
+            <label>Shirt Type:</label>
+            <select name="shirt_type" required>
+                <option value="">Select</option>
+                <option value="Formal Shirt">Formal Shirt</option>
+                <option value="T-Shirt">T-Shirt</option>
+                <option value="Polo">Polo</option>
+                <option value="Casual Shirt">Casual Shirt</option>
+                <option value="Safety Vest">Safety Vest</option>
+                <option value="Hoodie">Hoodie</option>
+                <option value="Kurta">Kurta</option>
+            </select>
+
+            <label>Pants Type:</label>
+            <select name="pants_type" required>
+                <option value="">Select</option>
+                <option value="Dress Pants">Dress Pants</option>
+                <option value="Jeans">Jeans</option>
+                <option value="Cargo Pants">Cargo Pants</option>
+                <option value="Chinos">Chinos</option>
+                <option value="Shorts">Shorts</option>
+                <option value="Shalwar">Shalwar</option>
+            </select>
+
+            <label>Shoe Type:</label>
+            <select name="shoe_type" required>
+                <option value="">Select</option>
+                <option value="Formal Shoes">Formal Shoes</option>
+                <option value="Sneakers">Sneakers</option>
+                <option value="Boots">Boots</option>
+                <option value="Sandals">Sandals</option>
+                <option value="Safety Boots">Safety Boots</option>
+                <option value="Loafers">Loafers</option>
+            </select>
+
+            <label>Has ID Card:</label>
+            <select name="has_id_card" required>
+                <option value="">Select</option>
+                <option value="Yes">Yes</option>
+                <option value="No">No</option>
+            </select>
+
+            <label>Has Safety Gear:</label>
+            <select name="has_safety_gear" required>
+                <option value="">Select</option>
+                <option value="Yes">Yes</option>
+                <option value="No">No</option>
+            </select>
+
+            <button type="submit">Check Compliance</button>
+        </form>
+    </div>
+
+    <footer>
+        <p>AI Dress Code Compliance System - Powered by Machine Learning</p>
+    </footer>
+</body>
+</html>
